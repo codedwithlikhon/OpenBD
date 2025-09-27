@@ -1,0 +1,13 @@
+@import url('https://cdn.msar.me/fonts/kalpurush/font.css');
+@import url('https://cdn.msar.me/fonts/solaiman-lipi/font.css');
+@import url('https://cdn.msar.me/fonts/apona-lohit/font.css');
+
+.bengali-text {
+  font-family: 'Kalpurush', 'SolaimanLipi', 'AponaLohit', sans-serif;
+  line-height: 1.6;
+}
+
+.bengali-heading {
+  font-family: 'CharuChandan3D', 'BenSen', serif;
+  font-weight: bold;
+}
