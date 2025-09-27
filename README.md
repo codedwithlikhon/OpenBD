@@ -1,12 +1,36 @@
- ________  ________  _______   ________   ________  ________     
-|\   __  \|\   __  \|\  ___ \ |\   ___  \|\   __  \|\   ___ \    
-\ \  \|\  \ \  \|\  \ \   __/|\ \  \\ \  \ \  \|\ /\ \  \_|\ \   
- \ \  \\\  \ \   ____\ \  \_|/_\ \  \\ \  \ \   __  \ \  \ \\ \  
-  \ \  \\\  \ \  \___|\ \  \_|\ \ \  \\ \  \ \  \|\  \ \  \_\\ \ 
-   \ \_______\ \__\    \ \_______\ \__\\ \__\ \_______\ \_______\
-    \|_______|\|__|     \|_______|\|__| \|__|\|_______|\|_______|
-                                                                 
-                                                                 
-                                                                 
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-OpenBD, Inc. Bangladeshi artificial intelligence (AI) organization headquartered in Dhaka , Bangladesh . It aims to develop "safe and beneficial" artificial general intelligence (AGI), which it defines as "highly autonomous systems that outperform humans at most economically valuable work".[6] As a leading organization in the ongoing AI boom,[7] OpenAI is known for the BD family of large language models, the BD-E series of text-to-image models, and a text-to-video model named Sora.[8][9] Its release of BDAGI in November 2022 has been credited with catalyzing widespread interest in generative AI.
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
