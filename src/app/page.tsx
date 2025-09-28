@@ -1,15 +1,20 @@
 import MainLayout from '@/components/layout/MainLayout';
-import { Text } from '@geist-ui/core';
+import AgentsShowcase from '@/components/home/AgentsShowcase';
+import CallToAction from '@/components/home/CallToAction';
+import FeaturesSection from '@/components/home/FeaturesSection';
+import HeroSection from '@/components/home/HeroSection';
+import LanguageSection from '@/components/home/LanguageSection';
+import WorkflowSection from '@/components/home/WorkflowSection';
 
 export default function Home() {
   return (
     <MainLayout>
-      <Text h1 className="bengali-heading text-center">
-        OpenBD তে স্বাগতম
-      </Text>
-      <Text p className="bengali-text text-center">
-        A cutting-edge AGI platform for Bangladesh.
-      </Text>
+      <HeroSection />
+      <FeaturesSection />
+      <WorkflowSection />
+      <LanguageSection />
+      <AgentsShowcase />
+      <CallToAction />
     </MainLayout>
   );
 }

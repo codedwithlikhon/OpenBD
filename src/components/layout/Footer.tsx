@@ -1,6 +1,6 @@
 "use client";
 import { Grid, Link, Spacer, Text } from '@geist-ui/core'
-import { Telegram, Github } from '@geist-ui/icons'
+import { Send, Github } from '@geist-ui/icons'
 
 export default function Footer() {
   return (
@@ -17,7 +17,7 @@ export default function Footer() {
               target="_blank"
               className="flex items-center gap-2 hover:text-primary"
             >
-              <Telegram size={20} />
+              <Send size={20} />
               Telegram
             </Link>
             <Link
